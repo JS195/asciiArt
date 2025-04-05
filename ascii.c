@@ -15,7 +15,7 @@ int average(int R, int G, int B) {
 
 int main() {
     int width, height, channels;
-    unsigned char *img = stbi_load("owl.png", &width, &height, &channels, 0);
+    unsigned char *img = stbi_load("images\\owl.png", &width, &height, &channels, 0);
     if (img == NULL) {
         printf("Failed to load image\n");
         return 1;
